@@ -1,0 +1,112 @@
+@import ../../styles/mobileFirst.sass
+
+
+
+.header
+  position: relative
+  top: 0
+  max-width: 100%
+  width: 100%
+  display: flex
+  flex-direction: row
+  align-items: center
+  height: 50px
+  background: #d0d3d6
+  justify-content: center
+  &__first-quarter
+    display: flex
+    justify-content: space-around
+    align-items: center
+    width: 40%
+    
+  &__second-quarter
+    width: 50%
+    display: flex
+    justify-content: space-around
+    align-items: center
+  &__third-quarter
+    width: 33%
+    display: flex
+    justify-content: flex-end
+    align-items: center
+  &__buttons
+    background: grey
+
+    padding: 5px
+    border-radius: 40px
+    &:hover
+      background: #7d1e1e
+    &:active
+    +media-min-sm()
+      padding: 2px 10px
+  &__play-button
+    background: brown
+
+    padding: 5px
+    color: #fff
+    font-size: 1.5em
+    font-weight: bold
+    border-radius: 10px
+    text-transform: uppercase
+    &:active
+      color: white
+      text-decoration: none
+      border-style: none
+      border: 0px
+    &:hover
+      color: white
+      text-decoration: none
+      background: #7d1e1e
+    &::active
+  &__play-new
+    background: brown
+
+    padding: 5px
+    color: #0000
+    font-size: 1.0em
+    font-weight: bold
+    border-radius: 10px
+    text-transform: uppercase
+    &:active
+      color: white
+      text-decoration: none
+      border-style: none
+      border: 0px
+    &:hover
+      color: white
+      text-decoration: none
+      background: #7d1e1e
+    &::active
+  &__logout
+    display: flex
+    align-items: center
+    justify-content: center
+    position: relative
+    right: 8px
+    font-size: 2em
+    height: 50px
+    width: 50px
+    color: white
+    border-radius: 100%
+    cursor: pointer
+    border: 2px solid #fff
+    &:active
+      color: white
+      text-decoration: none
+    &:hover
+      color: white
+      text-decoration: none
+      background: #7d1e1e
+  &__links
+    color: white
+    font-size: 0.5em
+    font-weight: bold
+    +media-min-sm()
+      font-size: 0.9em
+    &:hover
+      color: white
+      text-decoration: none
+    &:active
+      color: white
+      text-decoration: none
+      border: 0px

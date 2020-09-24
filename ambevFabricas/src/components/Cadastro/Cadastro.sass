@@ -1,0 +1,46 @@
+.register-container
+  display: flex
+  justify-content: initial
+  align-items: initial
+  height: calc(100vh - 100px)
+
+.register
+  display: flex
+  justify-content: initial
+  align-items: initial
+  height: calc(100vh - 800px)
+
+
+.form-group
+  height: 50px
+  width: 50%
+
+.button
+ 
+  width: 50%
+
+
+.register-form
+
+.alert-box
+  z-index: 3
+  position: absolute
+  display: flex
+  flex-wrap: wrap
+  background: rgba(255, 255, 255, .2)
+  top: 50px
+  min-height: 150px
+  max-height: 350px
+  min-width: 450px
+  max-width: 450px
+  overflow-y: auto
+  &__error
+    width: 100%
+    height: 50px
+    display: flex
+    align-items: center
+    background: rgba(255, 0, 0, .4)
+    border: 1px solid #fff
+  &::-webkit-scrollbar
+    display: none
+

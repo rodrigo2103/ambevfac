@@ -1,0 +1,90 @@
+$bs-ip5: 320px
+$bs-xs: 599px
+$bs-sm: 600px
+$bs-wvga: 768px
+$bs-sm-max: 959px
+$bs-md: 960px
+$bs-md-max: 1263px
+$bs-xga: 1024px
+$bs-wxga: 1366px
+$bs-wsxga: 1440px
+$bs-hdplus: 1600px
+$bs-xl: 1920px
+$bs-qhd: 2560px
+
+$bs-lg: 1264px
+/* MOBILE FIRST */
+
+/* Extra small devices (phhttps://www.youtube.com/watch?v=04q1KpsX_cI&t=10sones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 600px and up) */
+=media-min-sm()
+    @media (min-width: $bs-sm)
+        @content
+
+/* Medium devices (desktops, 960px and up) */
+=media-min-md()
+    @media (min-width: $bs-md)
+        @content
+
+/* Large devices (large desktops, 1264px and up) */
+=media-min-lg()
+  @media (min-width: $bs-lg)
+      @content
+
+
+/* SPECIFIC */
+
+/* ONLY Extra Small devices (599px and down) */
+=media-ip5()
+  @media (max-width: $bs-ip5)
+      @content
+
+=media-xs()
+    @media (max-width: $bs-xs)
+        @content
+
+/* ONLY Small devices (between 600px and 959) */
+=media-sm()
+    @media (min-width: $bs-sm) and (max-width: $bs-sm-max)
+        @content
+
+/* ONLY Medium devices (between 960 and 1263) */
+=media-md()
+    @media (min-width: $bs-md) and (max-width: $bs-md-max)
+        @content
+
+/* ONLY Medium devices (1264 and up) */
+=media-lg()
+    @media (min-width: $bs-lg)
+        @content
+
+=media-xl()
+    @media (min-width: $bs-xl)
+        @content
+
+=media-min-wvga()
+  @media (min-width: $bs-wvga)
+      @content
+
+=media-min-xga()
+    @media (min-width: $bs-xga)
+        @content
+
+=media-min-wxga()
+    @media (min-width: $bs-wxga)
+        @content
+
+=media-min-wsxga()
+    @media (min-width: $bs-wsxga)
+        @content
+
+=media-min-hdplus()
+    @media (min-width: $bs-hdplus)
+        @content
+
+=media-min-qhd()
+    @media (min-width: $bs-qhd)
+        @content
+

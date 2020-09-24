@@ -1,0 +1,138 @@
+{
+    "count": 7,
+    "dados": [
+        {
+            "companyName": "CERVEJARIA ÁGUAS DA SERRA",
+            "ambevCode": "ABCD10",
+            "scoreTotal": 0,
+            "dimension": 0,
+            "addressId": 1,
+            "address": {
+                "street": "Estrada Ary Jorge Zeitune",
+                "number": 3100,
+                "observation": "Bonsucesso ",
+                "postalCode": "07158-900",
+                "cityId": 4920,
+                "city": null,
+                "latitude": -5.570557,
+                "longitude": -50.325882,
+                "id": 1
+            },
+            "id": 1
+        },
+        {
+            "companyName": "CERVEJARIA PÉ DE SERRA",
+            "ambevCode": "ABCD15",
+            "scoreTotal": 0,
+            "dimension": 0,
+            "addressId": 1,
+            "address": {
+                "street": "Estrada Ary Jorge Zeitune",
+                "number": 3100,
+                "observation": "Bonsucesso ",
+                "postalCode": "07158-900",
+                "cityId": 4920,
+                "city": null,
+                "latitude": -40.570558,
+                "longitude": -65.325882,
+                "id": 1
+            },
+            "id": 2
+        },
+        {
+            "companyName": "CERVEJARIA GOLIAS",
+            "ambevCode": "ABCD17",
+            "scoreTotal": 0,
+            "dimension": 0,
+            "addressId": 1,
+            "address": {
+                "street": "Estrada Ary Jorge Zeitune",
+                "number": 3100,
+                "observation": "Bonsucesso ",
+                "postalCode": "07158-900",
+                "cityId": 4920,
+                "city": null,
+                "latitude": -25.570558,
+                "longitude": -65.325882,
+                "id": 1
+            },
+            "id": 3
+        },
+        {
+            "companyName": "CERVEJARIA RODRIGUES",
+            "ambevCode": "ABCD16",
+            "scoreTotal": 0,
+            "dimension": 0,
+            "addressId": 1,
+            "address": {
+                "street": "Estrada Ary Jorge Zeitune",
+                "number": 3100,
+                "observation": "Bonsucesso ",
+                "postalCode": "07158-900",
+                "cityId": 4920,
+                "city": null,
+                "latitude": -20.570558,
+                "longitude": -50.325882,
+                "id": 1
+            },
+            "id": 4
+        },
+        {
+            "companyName": "CERVEJARIA GUIMARAES",
+            "ambevCode": "ABCD16",
+            "scoreTotal": 0,
+            "dimension": 0,
+            "addressId": 1,
+            "address": {
+                "street": "Estrada Ary Jorge Zeitune",
+                "number": 3100,
+                "observation": "Bonsucesso ",
+                "postalCode": "07158-900",
+                "cityId": 4920,
+                "city": null,
+                "latitude": -25.570558,
+                "longitude": -55.325882,
+                "id": 1
+            },
+            "id": 10
+        },
+        {
+            "companyName": "CERVEJARIA SILVA",
+            "ambevCode": "ABCD16",
+            "scoreTotal": 0,
+            "dimension": 0,
+            "addressId": 1,
+            "address": {
+                "street": "Estrada Ary Jorge Zeitune",
+                "number": 3100,
+                "observation": "Bonsucesso ",
+                "postalCode": "07158-900",
+                "cityId": 4920,
+                "city": null,
+                "latitude": -15.570558,
+                "longitude": -59.325882,
+                "id": 1
+            },
+            "id": 12
+        },
+        {
+            "companyName": "CERVEJARIA DO LUCIO",
+            "ambevCode": "ABCD16",
+            "scoreTotal": 0,
+            "dimension": 0,
+            "addressId": 1,
+            "address": {
+                "street": "Estrada Ary Jorge Zeitune",
+                "number": 3100,
+                "observation": "Bonsucesso ",
+                "postalCode": "07158-900",
+                "cityId": 4920,
+                "city": null,
+                "latitude": -5.570558,
+                "longitude": -70.325882,
+                "id": 1
+            },
+            "id": 20
+        }
+    ]
+}

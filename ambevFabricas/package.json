@@ -1,0 +1,76 @@
+{
+  "name": "ambev-fabricas",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.10.2",
+    "@trendmicro/react-sidenav": "^0.5.0",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.5.0",
+    "flexboxgrid": "^6.3.1",
+    "formik": "^1.5.8",
+    "gatsby-link": "^2.4.12",
+    "geocode": "0.0.3",
+    "google": "^2.1.0",
+    "google-map-react": "^1.1.7",
+    "google-maps-react": "^2.0.6",
+    "history": "^4.10.1",
+    "jquery": "^1.9.1",
+    "length": "0.0.1",
+    "location": "0.0.1",
+    "material-ui": "^0.20.2",
+    "mdbreact": "^4.27.0",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.9.0",
+    "react-geocode": "^0.2.1",
+    "react-google-autocomplete": "^1.2.6",
+    "react-google-location": "^1.2.2",
+    "react-google-maps": "^9.4.5",
+    "react-icons": "^3.7.0",
+    "react-native": "^0.62.2",
+    "react-native-maps": "^0.27.1",
+    "react-native-push-notification": "^3.5.2",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.3",
+    "reactstrap": "^8.5.1",
+    "recharts": "^1.8.5",
+    "redux": "^4.0.4",
+    "redux-persist": "^6.0.0",
+    "redux-starter-kit": "^0.7.0",
+    "styled-components": "^5.1.1",
+    "sweetalert2": "^8.16.3",
+    "sweetalert2-react-content": "^1.1.0",
+    "yarn": "^1.22.4",
+    "yup": "^0.27.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "cypress": "^4.12.1"
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  }
+}
